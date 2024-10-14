@@ -1,0 +1,58 @@
+{
+	"name": "dulino",
+	"short_name": "dulino",
+	"description": "Prepare os jovens para as profissões do futuro",
+	"display": "standalone",
+	"orientation": "portrait",
+	"url": "https://sistemadulino.com.br",
+	"scope": "/",
+	"id": "/?source=pwa",
+	"start_url": "/?utm_source=pwa",
+	"theme_color": "#fafafa",
+	"background_color": "#fafafa",
+	"dir": "ltr",
+	"lang": "pt",
+	"prefer_related_applications": false,
+	"scope_extensions": [{ "origin": "*.sistemadulino.com.br" }],
+	"launch_handler": {
+		"client_mode": ["navigate-existing", "auto"]
+	},
+	"icons": [
+		{
+			"src": "dulino_512w.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any"
+		},
+		{
+			"src": "dulino_512w.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		},
+		{
+			"src": "dulino_192w.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "dulino_64w.png",
+			"type": "image/png",
+			"sizes": "64x64"
+		}
+	],
+	"display_override": ["standalone", "window-controls-overlay"],
+	"shortcuts": [
+		{
+			"name": "Login",
+			"url": "/login",
+			"description": ""
+		},
+		{
+			"name": "Home",
+			"url": "/",
+			"description": ""
+		}
+	],
+	"categories": ["education"]
+}
